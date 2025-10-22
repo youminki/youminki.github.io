@@ -1,0 +1,14 @@
+{
+  "name": "youminki-github-io",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://youminki.github.io/youminki",
+  "scripts": {
+    "predeploy": "npm run build-youminki",
+    "deploy": "gh-pages -d youminki",
+    "build-youminki": "echo \"Nothing to build for static youminki folder.\""
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
